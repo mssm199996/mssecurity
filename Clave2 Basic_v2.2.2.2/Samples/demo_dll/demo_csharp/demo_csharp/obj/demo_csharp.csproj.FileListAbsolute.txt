@@ -1,0 +1,10 @@
+D:\Document\LC&100\LC_LC2\src\Samples\demo_dll\demo_csharp\demo_csharp\obj\Debug\ResolveAssemblyReference.cache
+D:\Document\LC&100\LC_LC2\src\Samples\demo_dll\demo_csharp\demo_csharp\bin\Debug\demo_csharp.exe
+D:\Document\LC&100\LC_LC2\src\Samples\demo_dll\demo_csharp\demo_csharp\bin\Debug\demo_csharp.pdb
+D:\Document\LC&100\LC_LC2\src\Samples\demo_dll\demo_csharp\demo_csharp\obj\Debug\demo_csharp.exe
+D:\Document\LC&100\LC_LC2\src\Samples\demo_dll\demo_csharp\demo_csharp\obj\Debug\demo_csharp.pdb
+D:\Document\LC&100\LC_LC2\SDK\Samples\demo_dll\demo_csharp\demo_csharp\bin\Debug\demo_csharp.exe
+D:\Document\LC&100\LC_LC2\SDK\Samples\demo_dll\demo_csharp\demo_csharp\bin\Debug\demo_csharp.pdb
+D:\Document\LC&100\LC_LC2\SDK\Samples\demo_dll\demo_csharp\demo_csharp\obj\Debug\ResolveAssemblyReference.cache
+D:\Document\LC&100\LC_LC2\SDK\Samples\demo_dll\demo_csharp\demo_csharp\obj\Debug\demo_csharp.exe
+D:\Document\LC&100\LC_LC2\SDK\Samples\demo_dll\demo_csharp\demo_csharp\obj\Debug\demo_csharp.pdb

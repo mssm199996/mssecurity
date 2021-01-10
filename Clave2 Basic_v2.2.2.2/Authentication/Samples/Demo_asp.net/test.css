@@ -1,0 +1,16 @@
+body {  font-family: "Courier New"; font-size: 9pt; background-color: #F3F4FC}
+A {	COLOR: #0000FF; TEXT-DECORATION: underline}
+A:hover { COLOR: #FF0000; TEXT-DECORATION: none}
+A:active { COLOR: #CC6633; TEXT-DECORATION: none }
+h1 {  font-family: "Verdana"; font-size: 16pt}
+p {  text-indent: 18pt; margin-top: 2px; margin-bottom: 0px}
+ol {  margin-top: 2px; margin-bottom: 0px; text-indent: 18pt}
+ul { margin-top: 2px; margin-bottom: 0px; text-indent: 18pt }
+blockquote {  margin-top: 0px; margin-bottom: 0px}
+h2 {  font-family: "Verdana"; font-size: 10pt; font-weight: bold; text-indent: 0pt; margin-bottom: 3px; margin-top: 8px}
+li {  margin-top: 2px; margin-bottom: 2px}
+table {  font-size: 9pt}
+FORM {  margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px}
+INPUT { font-size: 9pt }
+.inputtext { color: #000099; border: 1px #A7A7A7 solid; margin-top: 0px; margin-bottom: 0px; margin-left: 0px; font-family: "Courier New"; height: 20px}
+.inputbtn { color: #000099; font-family: "Courier New"; height: 20px ; border-color: #FFFFFF #000000 #000000 #FFFFFF; border-style: solid; border-top-width: 1px; border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px}

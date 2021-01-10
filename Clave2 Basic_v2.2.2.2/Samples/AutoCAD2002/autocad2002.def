@@ -1,0 +1,7 @@
+
+LIBRARY      "autocad2002"
+
+EXPORTS
+	acrxEntryPoint		PRIVATE
+	acrxGetApiVersion	PRIVATE
+

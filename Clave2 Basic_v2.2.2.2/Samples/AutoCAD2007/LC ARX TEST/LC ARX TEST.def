@@ -1,0 +1,5 @@
+LIBRARY		"LC ARX TEST"
+
+EXPORTS
+	acrxEntryPoint		PRIVATE
+	acrxGetApiVersion	PRIVATE

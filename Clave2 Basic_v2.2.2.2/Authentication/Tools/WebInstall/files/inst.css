@@ -1,0 +1,91 @@
+BODY, TD, OL, UL, P, TH, FORM, INPUT, SELECT, TEXTAREA
+{
+/*	font-family: "Trebuchet MS", Tahoma, Arial, sans-serif;*/
+	font-family: Verdana, Helvetica, Tahoma, Arial, sans-serif;
+	font-size: 9pt;
+	color: #FFFFFF;
+}
+
+BODY
+{
+	MARGIN: 0pt 0px 0px; BACKGROUND-COLOR: #000000
+}
+
+.small
+{
+	font-size: 9pt;
+}
+
+.title
+{
+	FONT-FAMILY: Verdana, Tahoma, Arial, Helvetica, sans-serif;
+	FONT-WEIGHT: bold;
+	FONT-SIZE: 24px;
+}
+
+.bold
+{
+	font-weight: bold;
+}
+
+.footer { FONT-FAMILY: Tahoma, Verdana, Arial, Helvetica, sans-serif; font-size: 9pt;}
+
+h2
+{
+	font-size: 14pt; font-weight: bold; margin-top: 3pt; margin-bottom: 3pt;
+}
+
+P { margin-top: 5pt; margin-bottom: 10pt; }
+p.img {	margin-top: 5pt; margin-bottom: 2pt; }
+p.imgdesc { margin-top: 1pt; margin-bottom: 10pt; }
+
+/* p.indent { text-indent: 18pt;}
+div.indent { margin-left: 18pt;} */
+
+ul, ol, li { margin-bottom: 3pt; margin-top: 2pt; }
+
+pre
+{ font-size: 9pt; font-family: "Courier New"; margin-top: 3pt; margin-bottom: 3pt;}
+
+.code
+{ font-size: 9pt; font-family: "Courier New"; color:#990000; }
+
+.path
+{ color:#990099;/* font-family: "Courier New";*/}
+
+table.singleborder
+{ border-collapse: collapse;}
+
+A:link		{text-decoration: none; color: #dddddd; }
+A:visited	{text-decoration: none; color: #dddddd; }
+A:hover		{text-decoration: underline; color: #ffffff; }
+/*A:hover		{color:red;}*/
+
+
+A.boldlink			{text-decoration: none; color: #ff6600; font-weight: bold; }
+A.boldlink:visited	{text-decoration: none; color: #ff6600; font-weight: bold; }
+A.boldlink:hover	{color:red; font-weight: bold; }
+
+.bg_norepeat { background-repeat: no-repeat; }
+
+.datetime { color: #3366CC; font-family: "Courier New", "Courier", "mono"; }
+
+
+.delete {  text-decoration: line-through; color: #cccccc}
+
+
+.shadowtext { filter: DropShadow(color: #BBBBBB, OffX: 2, OffY: 2, Positive: 1);}
+
+
+hr {color: #4ea582; size: 1pt; height: 1pt;}
+
+
+.importance {color: #0066FF; font-weight: bold;}
+
+.unimportance {color: #999999;}
+
+
+.error {color: #ff0000;}
+
+
+.handcur {cursor: hand; }

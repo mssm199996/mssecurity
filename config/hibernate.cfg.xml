@@ -1,0 +1,97 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-configuration PUBLIC
+    "-//Hibernate/Hibernate Configuration DTD//EN"
+    "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+	<session-factory>
+		<property name="connection.url">jdbc:mysql://localhost:3306/msmarket?createDatabaseIfNotExist=true</property>
+		<property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
+		<property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
+		<property name="hibernate.connection.username">mssm1996</property>
+		<property name="hibernate.connection.password">pokemon1996</property>
+		<property name="hibernate.generate_statistics">false</property>
+		<property name="show_sql">false</property>
+		<property name="format_sql">true</property>
+		<property name="hibernate.hbm2ddl.auto">update</property>
+
+		<mapping class="DomainModel.BonsLivraison.BonLivraison" />
+
+		<mapping class="DomainModel.Acteurs.Client" />
+		<mapping class="DomainModel.Acteurs.Fournisseur" />
+		<mapping class="DomainModel.Acteurs.Personne" />
+		<mapping class="DomainModel.Acteurs.PersonneAffaire" />
+		<mapping class="DomainModel.Acteurs.Personnel" />
+		<mapping class="DomainModel.Acteurs.FichePaie" />
+
+		<mapping class="DomainModel.Configurations.Configuration" />
+
+		<mapping class="DomainModel.Factures.Facture" />
+		<mapping class="DomainModel.Factures.FacturePhysique" />
+		<mapping class="DomainModel.Factures.FacturesIrreelles.Devis" />
+		<mapping class="DomainModel.Factures.FacturesIrreelles.FactureIrreelle" />
+		<mapping class="DomainModel.Factures.FacturesIrreelles.FactureProforma" />
+		<mapping class="DomainModel.Factures.FacturesReelles.FactureAchat" />
+		<mapping class="DomainModel.Factures.FacturesReelles.FactureReelle" />
+		<mapping class="DomainModel.Factures.FacturesReelles.FactureVente" />
+
+		<mapping class="DomainModel.Produits.Childs.ProduitChild" />
+		<mapping class="DomainModel.Produits.Childs.NumeroSerie" />
+		<mapping class="DomainModel.Produits.Childs.Garantie" />
+		
+		<mapping class="DomainModel.Produits.CategorieProduit" />
+		<mapping class="DomainModel.Produits.Media" />
+		<mapping class="DomainModel.Produits.Produit" />
+		<mapping class="DomainModel.Produits.Codebarre" />
+		
+		<mapping class="DomainModel.Traces.Compte" />
+		<mapping class="DomainModel.Traces.Poste" />
+		<mapping class="DomainModel.Traces.Droit" />
+		<mapping class="DomainModel.Traces.Operation" />
+
+		<mapping class="DomainModel.Traces.Childs.Injection" />
+		<mapping class="DomainModel.Traces.Childs.Retour" />
+		<mapping class="DomainModel.Traces.Childs.Charge" />
+		<mapping class="DomainModel.Traces.Childs.Note" />
+		<mapping class="DomainModel.Traces.Childs.GarantieImpression" />
+		
+		<mapping class="DomainModel.Traces.Childs.Depenses.Depense" />
+		<mapping class="DomainModel.Traces.Childs.Depenses.TypeDepense" />
+		
+		<mapping class="DomainModel.Traces.SuperTypes.Trace" />
+		<mapping class="DomainModel.Traces.SuperTypes.ValuatedTrace" />
+		<mapping class="DomainModel.Traces.SuperTypes.BonTrace" />
+		<mapping class="DomainModel.Traces.SuperTypes.ProduitTrace" />
+
+		<mapping class="DomainModel.Solde.MouvementSolde" />
+		<mapping class="DomainModel.Solde.MouvementSoldeFournisseur" />
+
+		<mapping class="DomainModel.Commandes.BonCommande" />
+		<mapping class="DomainModel.Commandes.Commande" />
+
+		<mapping class="DomainModel.Transactions.IO.Transaction" />
+		<mapping class="DomainModel.Transactions.IO.TransactionReelle" />
+		<mapping class="DomainModel.Transactions.IO.TransactionFacturePhysique" />
+		
+		<mapping class="DomainModel.Transactions.IO.Achats.Achat" />
+		<mapping class="DomainModel.Transactions.IO.Ventes.Vente" />
+		<mapping class="DomainModel.Transactions.IO.Ventes.VenteIrreelle" />
+
+		<mapping class="DomainModel.Transactions.Paiements.Paiement" />
+		<mapping class="DomainModel.Transactions.Paiements.Personnel.Paie" />
+
+		<mapping
+			class="DomainModel.Transactions.Paiements.Factures.VersementsGlobales.VersementGlobale" />
+		<mapping
+			class="DomainModel.Transactions.Paiements.Factures.VersementsGlobales.VersementGlobaleVente" />
+		<mapping
+			class="DomainModel.Transactions.Paiements.Factures.VersementsGlobales.VersementGlobaleAchat" />
+
+		<mapping
+			class="DomainModel.Transactions.Paiements.Factures.VersementsUnitaires.VersementVente" />
+		<mapping
+			class="DomainModel.Transactions.Paiements.Factures.VersementsUnitaires.VersementAchat" />
+		<mapping
+			class="DomainModel.Transactions.Paiements.Factures.VersementsUnitaires.Versement" />
+
+	</session-factory>
+</hibernate-configuration>
