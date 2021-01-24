@@ -1,2 +1,6 @@
-1- Ecrire la clée du logiciel dans le bloc #1 (une clée de 16 bytes)
-2- Ecrire les fonctionnalités dans le bloc #2 sous format XX != 00 (XX est l'identifiant d'une fonctionnalité)
+# How to program the dongle:
+
+- Update the admin password of the dongle
+- Update the user password of the dongle
+- Write the encrypted software key in the dongle's bloc #1
+- Write the software features in the dongle's bloc #2 (XX format)
