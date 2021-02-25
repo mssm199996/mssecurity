@@ -1,24 +1,23 @@
 package MainPackage;
 
-import java.io.IOException;
-import java.security.NoSuchAlgorithmException;
-import java.util.Collection;
-import java.util.HashSet;
-
-import javax.crypto.BadPaddingException;
-import javax.crypto.IllegalBlockSizeException;
-
 import DomainModel.Poste;
 import Exceptions.AlreadySignUpPosteAndModifiedCredentials;
 import Exceptions.NoneActiveException;
-import LC.LCHandler;
-import LC.LCManager;
 import LC.Enums.PasswordType;
 import LC.Exceptions.DeviceNotOpenedException;
 import LC.Exceptions.DongleOperationFailedException;
 import LC.Exceptions.PasswordAuthenticationException;
+import LC.LCHandler;
+import LC.LCManager;
 import LC.Structures.HardwareInfo;
 import msdatabaseutils.SessionFactoryHandler;
+
+import javax.crypto.BadPaddingException;
+import javax.crypto.IllegalBlockSizeException;
+import java.io.IOException;
+import java.security.NoSuchAlgorithmException;
+import java.util.Collection;
+import java.util.HashSet;
 
 public abstract class LCDongleCopyrightHandler extends CopyrightHandler {
 
@@ -124,5 +123,10 @@ public abstract class LCDongleCopyrightHandler extends CopyrightHandler {
 		}
 
 		return result;
+	}
+
+	@Override
+	public boolean trackActivityTime() {
+		return false;
 	}
 }

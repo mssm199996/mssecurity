@@ -126,7 +126,7 @@ public abstract class CopyrightHandler {
 						try {
 							if (!isPosteStillActive())
 								System.exit(0);
-							else
+							else if(trackActivityTime())
 								updateTempsUtilisation(currentPoste);
 						} catch (DongleOperationFailedException | DeviceNotOpenedException e) {
 							e.printStackTrace();
@@ -142,7 +142,9 @@ public abstract class CopyrightHandler {
 	}
 
 	protected void stopBackgroundThread() {
-		this.timer.cancel();
+		if(this.timer != null)
+			this.timer.cancel();
+
 		this.isStarted = false;
 	}
 
@@ -163,6 +165,8 @@ public abstract class CopyrightHandler {
 			throws NoSuchAlgorithmException, IOException, DongleOperationFailedException;
 
 	public abstract boolean isPosteStillActive() throws DongleOperationFailedException, DeviceNotOpenedException;
+
+	public abstract boolean trackActivityTime();
 
 	public abstract boolean isValidLicenseKey(Poste poste, String givenCipheredText);
 
